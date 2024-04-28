@@ -1,0 +1,14 @@
+.heart-icon{
+  right: -100%;
+  top: 10px;
+  transition: .5s;
+  opacity: 0;
+}
+.product:hover .heart-icon{
+  right: 10px;
+  opacity: 1;
+}
+.product{
+  border: 1px solid #e2dbdb;
+  border-radius: 10px;
+}
